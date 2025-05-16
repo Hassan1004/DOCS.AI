@@ -1,0 +1,40 @@
+{
+  "name": "docai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "export npm_config_build_from_source=false",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@coinbase/onchainkit": "^0.36.10",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf-viewer/highlight": "^3.12.0",
+    "@react-pdf-viewer/page-navigation": "^3.12.0",
+    "@react-pdf-viewer/search": "^3.12.0",
+    "canvas": "^2.11.2",
+    "ethers": "^6.13.5",
+    "next": "15.1.6",
+    "openai": "^4.83.0",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^3.11.174",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
